@@ -1,12 +1,7 @@
 """ Some convenience functions for translating between various representions of a robot pose.
     TODO: nothing... you should not have to modify these """
 
-import rospy
 
-from std_msgs.msg import Header, String
-from sensor_msgs.msg import LaserScan
-from geometry_msgs.msg import PoseStamped, PoseWithCovarianceStamped, PoseArray, Pose, Point, Quaternion
-from nav_msgs.srv import GetMap
 from copy import deepcopy
 
 import tf
